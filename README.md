@@ -18,7 +18,7 @@
 ```
 <template>
   <div>
-    <Carousel class="ct">
+    <Carousel>
       <!-- 注意这里一定要使用v-for语法,或不换行写入多个子元素。vue会将换行识别为一个'undefined'vnode -->
       <div v-for="(item,index) in arr" :key="index">{{item}}</div>
     </Carousel>
